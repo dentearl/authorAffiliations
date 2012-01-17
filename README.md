@@ -41,7 +41,7 @@ So this group consists of four authors which span four affiliations (the highest
 
 The numbers from the author line must match the numbers that are present in the affilation lines. The benefit of this approach is that you can use these "local" numbers for each group, starting at 1, and the script will figure out the ultimate numbering for you.
 
-If an author is a PI and should be listed at the end of the paper you can put "PI: " in front of their name and push them to the back of the list. Example: 
+If an author is a PI and should be listed at the end of the paper you can put "PI: " in front of their name and push them to the back of the list. ALL names listed after the first "PI: " are considered PIs. Example: 
 
     Jared T. Simpson1, PI: Richard Durbin1
     (1) Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, UK
