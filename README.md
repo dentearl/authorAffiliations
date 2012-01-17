@@ -1,5 +1,5 @@
 # Author Affliations Script
-Script to handle the complexities of figuring out which superscript number goes with which authors and which institution. Useful for multi-author publications (> 20)
+Script to handle the complexities of figuring out which superscript number goes with which authors and which institution. Useful for multi-author publications (> 20) with complex affiliations.
 
 ## Author
 [Dent Earl](https://github.com/dentearl/)
