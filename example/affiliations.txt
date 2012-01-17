@@ -1,0 +1,101 @@
+# FORMAT INFORMATION
+# Lines that start with # are ignored
+# Groups are comprised of an author line and then institution lines
+# Author line is a comma and space separated list of authors where each author
+# is listed with their local-affiliation numbers immediatly following the end
+# of their name in a comma (no space) separated list.
+# All names listed after the string "PI:" will be treated as PIs and shifted to
+# the end of the author list. Example:
+# Dent Earl1,2, Keith Bradnam4, John St. John1,2, Aaron Darling4
+# So Dent is affilated with local-affiliations 1 and 2, Keith with 4, etc
+#
+# Immediatly folliwng the author line is the local-affliations list. Format is a 
+# parenthesis enclosed number followed by the institution information. Example:
+# (1) Center for Biomolecular Science and Engineering, University of California Santa Cruz, CA, USA
+#
+##############################
+Dent Earl1,2, Keith Bradnam4, John St. John1,2, Aaron Darling4
+(1) Center for Biomolecular Science and Engineering, University of California Santa Cruz, CA, USA
+(2) Biomolecular Engineering Department, University of California Santa Cruz, CA, USA
+(3) Howard Hughes Medical Institute, Bethesda, MD, USA
+(4) Genome Center, University of California Davis, CA, USA
+
+Dawei Lin2,3, Joseph Fass2,3, Hung On Ken Yu2, Vince Buffalo2,3
+(1) Molecular and Cellular Biology, Genome Center, University of California Davis, CA, USA
+(2) Genome Center, University of California Davis, CA, USA
+(3) Bioinformatics Core, Genome Center, University of California Davis, CA, USA
+
+Daniel Zerbino2, Mark Diekhans1,2, Ngan Nguyen1,2
+(1) Center for Biomolecular Science and Engineering, University of California Santa Cruz, CA, USA
+(2) Biomolecular Engineering Department, University of California Santa Cruz, CA, USA
+(3) Howard Hughes Medical Institute, Bethesda, MD, USA
+(4) Genome Center, University of California Davis, CA, USA
+
+Pramila Nuwantha Ariyaratne1, Wing-Kin Sung1,2
+(1) Computational & Mathematical Biology Group, Genome Institute of Singapore, Singapore
+(2) School of Computing, National University of Singapore, Singapore
+
+Zemin Ning1
+(1) Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, UK
+
+Matthias Haimel1, PI: Paul J. Kersey1
+(1) EMBL-EBI, Wellcome Trust Genome Campus, Hinxton, UK
+
+Jared T. Simpson1, PI: Richard Durbin1
+(1) Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, UK
+
+Nuno A. Fonseca1 
+(1) CRACS-INESC Porto LA, Universidade do Porto, Portugal
+
+İnanç Birol1, T. Roderick Docking1, PI: Shaun D. Jackman1
+(1) Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, British Columbia, Canada
+
+Isaac Y. Ho1, Daniel S. Rokhsar1,2, PI: Jarrod A. Chapman1
+(1) DOE Joint Genome Institute, Walnut Creek, CA, USA
+(2) UC Berkeley, Dept, of Molecular and Cell Biology, Berkeley, CA, USA
+
+Rayan Chikhi1,3, Dominique Lavenier1,2,3, Guillaume Chapuis1,3, Delphine Naquin2,3, Nicolas Maillet2,3
+(1) Computer Science department, ENS Cachan/IRISA, Rennes, France
+(2) INRIA, Rennes Bretagne Atlantique, Rennes, France
+(3) CNRS/Symbiose, IRISA, Rennes, France
+
+Michael C. Schatz1, David R. Kelley2, Adam M. Phillippy2,3, Sergey Koren2,3
+(1) Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA
+(2) Center for Bioinformatics and Computational Biology, University of Maryland, College Park, MD, USA
+(3) National Biodefense Analysis and Countermeasures Center, Fredrick, MD, USA
+
+Shiaw-Pyng Yang1, Wei Wu1, PI: Xiaoqiu Huang2
+(1) Monsanto Company, 700 Chesterfield Parkway, Chesterfield, MO, USA
+(2) Department of Computer Science, Iowa State University, Ames, IA, USA
+
+Wen-Chi Chou1, Anuj Srivastava1, Timothy I. Shaw1
+(1) Institute of Bioinformatics, University of Georgia, Athens, GA, USA
+
+J. Graham Ruby1,2,3, Peter Skewes-Cox1,2,3, Miguel Betegon1,2,3, Michelle T. Dimon1,2,3, PI: Joseph L. DeRisi1,2,3
+(1) Department of Biochemistry and Biophysics, University of California San Francisco, CA, USA
+(2) Biological and Medical Informatics Program, University of California, San Francisco, CA, USA
+(3) Howard Hughes Medical Institute, Bethesda, MD, USA
+
+Victor Solovyev1, Igor Seledtsov2, Petr Kosarev2, Denis Vorobyev2
+(1) Department of Computer Science, Royal Holloway, University of London, UK
+(2) Softberry Inc., 116 Radio Circle, Suite 400, Mount Kisco, NY, USA
+
+Ricardo Ramirez-Gonzalez1, Richard Leggett2, Dan MacLean2, PI: Mario Caccamo1
+(1) The Genome Analysis Centre, Norwich Research Park, Norwich, UK
+(2) The Sainsbury Laboratory, Norwich Research Park, Norwich, UK
+
+Fangfang Xia1
+(1) Computation Institute, University of Chicago, IL, USA
+
+Ruibang Luo1, Zhenyu L1, Yinlong Xie1, Binghang Liu1, PI: Yingrui Li1 Jun Wang1
+(1) BGI-Shenzhen, Shenzhen 518083, China
+
+Sante Gnerre1, Iain MacCallum1, Dariusz Przybylski1, Filipe J. Ribeiro1, Shuangye Yin1, Ted Sharpe1, Giles Hall1, PI: David B. Jaffe1
+(1) Broad Institute, Cambridge, MA, USA
+
+PI: Richard E. Green2 , David Haussler1,2,3, Ian Korf4,5, Benedict Paten1,2
+(1) Center for Biomolecular Science and Engineering, University of California Santa Cruz, CA, USA
+(2) Biomolecular Engineering Department, University of California Santa Cruz, CA, USA
+(3) Howard Hughes Medical Institute, Bethesda, MD, USA
+(4) Molecular and Cellular Biology, Genome Center, University of California Davis, CA, USA
+(5) Genome Center, University of California Davis, CA, USA
