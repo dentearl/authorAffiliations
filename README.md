@@ -28,7 +28,7 @@ Options:
 
 An example file (the one used to generate the author affiliations for the [Assemblathon 1](http://genome.cshlp.org/content/21/12/2224) paper) is included in the <code>example/</code> directory.
 
-Lines that start with # are ignored. The order of the output list is given by the order of authors in the affiliations file. Authors are grouped together in author blocks which consist of one line of authors and then one line per affiliation. Each name is immediatle followed, without space, by a comma seperated list of their affiliations. Example:
+Lines that start with # are ignored. The order of the output list is given by the order of authors in the affiliations file. Authors are grouped together in author blocks which consist of one line of authors and then one line per affiliation. Each name is immediately followed, without space, by a comma seperated list of their affiliations. Example:
 
     Dent Earl1,2, Keith Bradnam4, John St. John1,2, Aaron Darling4
 
