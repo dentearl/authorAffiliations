@@ -44,7 +44,6 @@ class Author():
   def __init__(self):
     self.name = ''
     self.affiliations_list = []  # assumed to be in correct order
-    self.affiliations_set = set()
     # is the author the PI of a lab? PI's are
     # placed at the end of the author list
     self.is_PI = False
@@ -220,8 +219,6 @@ def ParseAuthorLine(line, line_number, args):
     a.name = m.group(1)
     affiliations = m.group(2)
     a.affiliations_list = CleanAffiliations(affiliations, line_number, args)
-    for aff in affiliations:
-      a.affiliations_set.add(aff)
     authors_list.append(a)
   return authors_list
 
