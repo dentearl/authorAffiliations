@@ -93,7 +93,7 @@ def ReadFile(file_path, args):
   these_authors = []
   these_institutions = {}  # key: number, value: string
   f = open(file_path, 'r')
-  for line in f:
+  for line_number, line in enumerate(f, 1):
     if line.startswith('#'):
       continue
     line = line.strip()
@@ -109,7 +109,7 @@ def ReadFile(file_path, args):
       pass
     else:
       these_institutions = {}
-      these_authors = ParseAuthorLine(line, args)
+      these_authors = ParseAuthorLine(line, line_number, args)
   these_authors = MergeLocalAuthorsInstitutions(
     these_authors, these_institutions)
   if these_authors != []:
@@ -160,11 +160,39 @@ def ParseInstitutionLine(line, institutions_dict, args):
   institutions_dict[key] = institution
 
 
-def ParseAuthorLine(line, args):
+def CleanAffiliations(affiliations, line_number, args):
+  """Given an author block affiliations list, return a list of numbers
+
+  Args:
+    affiliations: line from author block, should be comma-delmited ints
+    line_number: line number of input file, for error messages
+    args: argparse argument object
+
+  Returns:
+    a list of integers represting the affilations
+
+  Raises:
+    ValueError if the affilations line is incorrectly formatted.
+  """
+  affiliations_tmp = affiliations.split(',')
+  affiliations = []
+  for aff in affiliations_tmp:
+    if aff != '':
+      affiliations.append(aff)
+    try:
+      affiliations = sorted(affiliations, key=lambda x: int(x))
+    except ValueError:
+      sys.stderr.write('Found bad author affiliations on line number %d: %s\n'
+                       % (line_number, affiliations))
+      raise
+  return affiliations
+
+def ParseAuthorLine(line, line_number, args):
   """Given an author line from the input file, parse and store.
 
   Args:
     line: line from the input file
+    line_number: the line number from the input file
     args: argparse argument object
 
   Returns:
@@ -191,9 +219,7 @@ def ParseAuthorLine(line, args):
                       'regex:%s author_block:%s\n' % (regex, block))
     a.name = m.group(1)
     affiliations = m.group(2)
-    affiliations = affiliations.split(',')
-    affiliations = sorted(affiliations, key=lambda x: int(x))
-    a.affiliations_list = affiliations
+    a.affiliations_list = CleanAffiliations(affiliations, line_number, args)
     for aff in affiliations:
       a.affiliations_set.add(aff)
     authors_list.append(a)
