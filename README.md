@@ -61,36 +61,67 @@ The result of the script is a block of text you can paste into a document (re-fo
 Dent Earl1,2, Keith Bradnam3, John St. John1,2, Aaron Darling3, Dawei Lin3,4, Joseph Fass3,4, Hung On Ken Yu3, Vince Buffalo3,4, Daniel Zerbino2, Mark Diekhans1,2, Ngan Nguyen1,2, Pramila Nuwantha Ariyaratne5, Wing-Kin Sung5,6, Zemin Ning7, Matthias Haimel8, Jared T. Simpson7, Nuno A. Fonseca9, İnanç Birol10, T. Roderick Docking10, Isaac Y. Ho11, Daniel S. Rokhsar11,12, Rayan Chikhi13,14, Dominique Lavenier13,14,15, Guillaume Chapuis13,14, Delphine Naquin14,15, Nicolas Maillet14,15, Michael C. Schatz16, David R. Kelley17, Adam M. Phillippy17,18, Sergey Koren17,18, Shiaw-Pyng Yang19, Wei Wu19, Wen-Chi Chou20, Anuj Srivastava20, Timothy I. Shaw20, J. Graham Ruby21,22,23, Peter Skewes-Cox21,22,23, Miguel Betegon21,22,23, Michelle T. Dimon21,22,23, Victor Solovyev24, Igor Seledtsov25, Petr Kosarev25, Denis Vorobyev25, Ricardo Ramirez-Gonzalez26, Richard Leggett27, Dan MacLean27, Fangfang Xia28, Ruibang Luo29, Zhenyu L29, Yinlong Xie29, Binghang Liu29, Sante Gnerre30, Iain MacCallum30, Dariusz Przybylski30, Filipe J. Ribeiro30, Shuangye Yin30, Ted Sharpe30, Giles Hall30, Paul J. Kersey8, Richard Durbin7, Shaun D. Jackman10, Jarrod A. Chapman11, Xiaoqiu Huang31, Joseph L. DeRisi21,22,23, Mario Caccamo26, Yingrui Li29, David B. Jaffe30, Richard E. Green2, David Haussler1,2,23, Ian Korf3,32, Benedict Paten1,2,
 
 (1) Center for Biomolecular Science and Engineering, University of California Santa Cruz, CA, USA
+
 (2) Biomolecular Engineering Department, University of California Santa Cruz, CA, USA
+
 (3) Genome Center, University of California Davis, CA, USA
+
 (4) Bioinformatics Core, Genome Center, University of California Davis, CA, USA
+
 (5) Computational & Mathematical Biology Group, Genome Institute of Singapore, Singapore
+
 (6) School of Computing, National University of Singapore, Singapore
+
 (7) Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, UK
+
 (8) EMBL-EBI, Wellcome Trust Genome Campus, Hinxton, UK
+
 (9) CRACS-INESC Porto LA, Universidade do Porto, Portugal
+
 (10) Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, British Columbia, Canada
+
 (11) DOE Joint Genome Institute, Walnut Creek, CA, USA
+
 (12) UC Berkeley, Dept, of Molecular and Cell Biology, Berkeley, CA, USA
+
 (13) Computer Science department, ENS Cachan/IRISA, Rennes, France
+
 (14) CNRS/Symbiose, IRISA, Rennes, France
+
 (15) INRIA, Rennes Bretagne Atlantique, Rennes, France
+
 (16) Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA
+
 (17) Center for Bioinformatics and Computational Biology, University of Maryland, College Park, MD, USA
+
 (18) National Biodefense Analysis and Countermeasures Center, Fredrick, MD, USA
+
 (19) Monsanto Company, 700 Chesterfield Parkway, Chesterfield, MO, USA
+
 (20) Institute of Bioinformatics, University of Georgia, Athens, GA, USA
+
 (21) Department of Biochemistry and Biophysics, University of California San Francisco, CA, USA
+
 (22) Biological and Medical Informatics Program, University of California, San Francisco, CA, USA
+
 (23) Howard Hughes Medical Institute, Bethesda, MD, USA
+
 (24) Department of Computer Science, Royal Holloway, University of London, UK
+
 (25) Softberry Inc., 116 Radio Circle, Suite 400, Mount Kisco, NY, USA
+
 (26) The Genome Analysis Centre, Norwich Research Park, Norwich, UK
+
 (27) The Sainsbury Laboratory, Norwich Research Park, Norwich, UK
+
 (28) Computation Institute, University of Chicago, IL, USA
+
 (29) BGI-Shenzhen, Shenzhen 518083, China
+
 (30) Broad Institute, Cambridge, MA, USA
+
 (31) Department of Computer Science, Iowa State University, Ames, IA, USA
+
 (32) Molecular and Cellular Biology, Genome Center, University of California Davis, CA, USA
 
 
