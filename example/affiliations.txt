@@ -4,12 +4,13 @@
 # Author line is a comma and space separated list of authors where each author
 # is listed with their local-affiliation numbers immediatly following the end
 # of their name in a comma (no space) separated list.
-# All names listed after the string "PI:" will be treated as PIs and shifted to
+# All names listed AFTER the string "PI:" will be treated as PIs and shifted to
 # the end of the author list. Example:
-# Dent Earl1,2, Keith Bradnam4, John St. John1,2, Aaron Darling4
-# So Dent is affilated with local-affiliations 1 and 2, Keith with 4, etc
+# Dent Earl1,2, Keith Bradnam4, John St. John1,2, Aaron Darling4, PI: Galileo5
+# So Dent is affilated with local-affiliations 1 and 2, Keith with 4,
+# and Galileo is a PI.
 #
-# Immediatly folliwng the author line is the local-affliations list. Format is a 
+# Immediatly folliwng the author line is the local-affliations list. Format is a
 # parenthesis enclosed number followed by the institution information. Example:
 # (1) Center for Biomolecular Science and Engineering, University of California Santa Cruz, CA, USA
 #
@@ -44,7 +45,7 @@ Matthias Haimel1, PI: Paul J. Kersey1
 Jared T. Simpson1, PI: Richard Durbin1
 (1) Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, UK
 
-Nuno A. Fonseca1 
+Nuno A. Fonseca1
 (1) CRACS-INESC Porto LA, Universidade do Porto, Portugal
 
 İnanç Birol1, T. Roderick Docking1, PI: Shaun D. Jackman1

@@ -3,9 +3,9 @@ export SHELLOPTS=pipefail
 
 .PHONY= all demo clean
 
-all: bin/authorAffiliations.py
+all: bin/author_affiliations
 
-bin/authorAffiliations.py: src/authorAffiliations.py
+bin/author_affiliations: src/author_affiliations.py
 	mkdir -p $(dir $@)
 	cp $< $@.tmp
 	chmod 755 $@.tmp
@@ -13,7 +13,7 @@ bin/authorAffiliations.py: src/authorAffiliations.py
 
 demo: pasteIntoPaper.txt
 
-pasteIntoPaper.txt: bin/authorAffiliations.py example/affiliations.txt
+pasteIntoPaper.txt: bin/author_affiliations example/affiliations.txt
 	$^ > $@.tmp
 	mv $@.tmp $@
 
