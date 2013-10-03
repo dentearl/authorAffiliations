@@ -1,4 +1,6 @@
 # FORMAT INFORMATION
+# https://github.com/dentearl/authorAffiliations/
+#
 # Lines that start with # are ignored
 # Groups are comprised of an author line and then institution lines
 # Author line is a comma and space separated list of authors where each author
