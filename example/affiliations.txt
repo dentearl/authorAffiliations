@@ -9,93 +9,115 @@
 # All names listed AFTER the string "PI:" will be treated as PIs and shifted to
 # the end of the author list. Example:
 # Dent Earl1,2, Keith Bradnam4, John St. John1,2, Aaron Darling4, PI: Galileo5
-# So Dent is affilated with local-affiliations 1 and 2, Keith with 4,
+# So Dent is affiliated with local-affiliations 1 and 2, Keith with 4,
 # and Galileo is a PI.
 #
-# Immediatly folliwng the author line is the local-affliations list. Format is a
+# Immediately following the author line is the local-affliations list. Format is a
 # parenthesis enclosed number followed by the institution information. Example:
 # (1) Center for Biomolecular Science and Engineering, University of California Santa Cruz, CA, USA
 #
 ##############################
+
+# Project organizers / analysis
 Dent Earl1,2, Keith Bradnam4, John St. John1,2, Aaron Darling4
 (1) Center for Biomolecular Science and Engineering, University of California Santa Cruz, CA, USA
 (2) Biomolecular Engineering Department, University of California Santa Cruz, CA, USA
 (3) Howard Hughes Medical Institute, Bethesda, MD, USA
 (4) Genome Center, University of California Davis, CA, USA
 
+# UC Davis Team
 Dawei Lin2,3, Joseph Fass2,3, Hung On Ken Yu2, Vince Buffalo2,3
 (1) Molecular and Cellular Biology, Genome Center, University of California Davis, CA, USA
 (2) Genome Center, University of California Davis, CA, USA
 (3) Bioinformatics Core, Genome Center, University of California Davis, CA, USA
 
+# UCSC Support
 Daniel Zerbino2, Mark Diekhans1,2, Ngan Nguyen1,2
 (1) Center for Biomolecular Science and Engineering, University of California Santa Cruz, CA, USA
 (2) Biomolecular Engineering Department, University of California Santa Cruz, CA, USA
 (3) Howard Hughes Medical Institute, Bethesda, MD, USA
 (4) Genome Center, University of California Davis, CA, USA
 
+# ASTR Team, Singapore
 Pramila Nuwantha Ariyaratne1, Wing-Kin Sung1,2
 (1) Computational & Mathematical Biology Group, Genome Institute of Singapore, Singapore
 (2) School of Computing, National University of Singapore, Singapore
 
+# WTSI-P Phusion2 Team, UK
 Zemin Ning1
 (1) Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, UK
 
+# EBI Team, UK
 Matthias Haimel1, PI: Paul J. Kersey1
 (1) EMBL-EBI, Wellcome Trust Genome Campus, Hinxton, UK
 
+# WTSI-S SGA Team, UK
 Jared T. Simpson1, PI: Richard Durbin1
 (1) Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, UK
 
+# CRACS ABySS Team, Portugal
 Nuno A. Fonseca1
 (1) CRACS-INESC Porto LA, Universidade do Porto, Portugal
 
+# BCCGSC ABySS Anchor Team, Canada
 İnanç Birol1, T. Roderick Docking1, PI: Shaun D. Jackman1
 (1) Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, British Columbia, Canada
 
+# DOEJGI Meraculous Team, USA
 Isaac Y. Ho1, Daniel S. Rokhsar1,2, PI: Jarrod A. Chapman1
 (1) DOE Joint Genome Institute, Walnut Creek, CA, USA
 (2) UC Berkeley, Dept, of Molecular and Cell Biology, Berkeley, CA, USA
 
+# IRISA Monument Team, France
 Rayan Chikhi1,3, Dominique Lavenier1,2,3, Guillaume Chapuis1,3, Delphine Naquin2,3, Nicolas Maillet2,3
 (1) Computer Science department, ENS Cachan/IRISA, Rennes, France
 (2) INRIA, Rennes Bretagne Atlantique, Rennes, France
 (3) CNRS/Symbiose, IRISA, Rennes, France
 
+# CSHL Quake Celera Bambus2 Team, USA
 Michael C. Schatz1, David R. Kelley2, Adam M. Phillippy2,3, Sergey Koren2,3
 (1) Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA
 (2) Center for Bioinformatics and Computational Biology, University of Maryland, College Park, MD, USA
 (3) National Biodefense Analysis and Countermeasures Center, Fredrick, MD, USA
 
+# DCISU PCAP Team, USA
 Shiaw-Pyng Yang1, Wei Wu1, PI: Xiaoqiu Huang2
 (1) Monsanto Company, 700 Chesterfield Parkway, Chesterfield, MO, USA
 (2) Department of Computer Science, Iowa State University, Ames, IA, USA
 
+# IoBUGA Seqclean SOAPdenovo Team, USA
 Wen-Chi Chou1, Anuj Srivastava1, Timothy I. Shaw1
 (1) Institute of Bioinformatics, University of Georgia, Athens, GA, USA
 
+# UCSF PRICE Team, USA
 J. Graham Ruby1,2,3, Peter Skewes-Cox1,2,3, Miguel Betegon1,2,3, Michelle T. Dimon1,2,3, PI: Joseph L. DeRisi1,2,3
 (1) Department of Biochemistry and Biophysics, University of California San Francisco, CA, USA
 (2) Biological and Medical Informatics Program, University of California, San Francisco, CA, USA
 (3) Howard Hughes Medical Institute, Bethesda, MD, USA
 
+# RHUL OligoZip Team, UK
 Victor Solovyev1, Igor Seledtsov2, Petr Kosarev2, Denis Vorobyev2
 (1) Department of Computer Science, Royal Holloway, University of London, UK
 (2) Softberry Inc., 116 Radio Circle, Suite 400, Mount Kisco, NY, USA
 
+# GACWT Cortex_con_rp Team, UK
 Ricardo Ramirez-Gonzalez1, Richard Leggett2, Dan MacLean2, PI: Mario Caccamo1
 (1) The Genome Analysis Centre, Norwich Research Park, Norwich, UK
 (2) The Sainsbury Laboratory, Norwich Research Park, Norwich, UK
 
+# CIUoC Kiki Team, USA
 Fangfang Xia1
 (1) Computation Institute, University of Chicago, IL, USA
 
+# BGI SOAPdenovo Team, China
 Ruibang Luo1, Zhenyu L1, Yinlong Xie1, Binghang Liu1, PI: Yingrui Li1 Jun Wang1
 (1) BGI-Shenzhen, Shenzhen 518083, China
 
+# Broad ALLPATHS-LG Team, USA
 Sante Gnerre1, Iain MacCallum1, Dariusz Przybylski1, Filipe J. Ribeiro1, Shuangye Yin1, Ted Sharpe1, Giles Hall1, PI: David B. Jaffe1
 (1) Broad Institute, Cambridge, MA, USA
 
+# Project supervisors, PIs
 PI: Richard E. Green2 , David Haussler1,2,3, Ian Korf4,5, Benedict Paten1,2
 (1) Center for Biomolecular Science and Engineering, University of California Santa Cruz, CA, USA
 (2) Biomolecular Engineering Department, University of California Santa Cruz, CA, USA
